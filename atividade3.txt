@@ -1,0 +1,16 @@
+Universidade de Brasília
+Nome: Mateus Rocha Da Silva
+Matrícula: 16/0015031
+
+func_proc (int vet [], int tam, int n)
+
+inicio
+    para i de 1 ate tam faça
+	se vet[i] == n então
+	escreva ("O indice e: ", i)
+	retornar i;
+	fimse
+    fimpara
+		escreva("Nao encontrado!");
+		retornar -1;
+Fim
